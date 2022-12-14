@@ -1,4 +1,4 @@
-import json, math
+import math
 
 with open('input_day14.txt') as f:
     lines = f.readlines()

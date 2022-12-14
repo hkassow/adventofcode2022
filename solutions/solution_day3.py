@@ -3,7 +3,7 @@ import collections
 # find letter that appears twice 
 # sum all letters 
 
-with open('input_day3.txt') as f:
+with open('inputs/input_day3.txt') as f:
     lines = f.readlines()
     x = 0
     for line in lines:

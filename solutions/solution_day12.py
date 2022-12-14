@@ -33,7 +33,7 @@ def solveDay12(grid):
 
 #part 1 involes solving just from 'S'
 #part 2 involves solving from any 'a' or 'S'
-with open('input_day12.txt') as f:
+with open('inputs/input_day12.txt') as f:
     lines = f.readlines()
 
     grid = []

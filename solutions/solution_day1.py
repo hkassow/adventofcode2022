@@ -4,7 +4,7 @@ from heapq import heappush, heappop
 # find the elf carrying the most calories
 # part 2 find the top 3 
 
-with open('input_day1') as f:
+with open('inputs/input_day1.txt') as f:
     lines = f.readlines()
     calories = []
     curr = 0
@@ -14,4 +14,6 @@ with open('input_day1') as f:
             curr = 0
         else:
             curr += int(i)
-    print(-heappop(calories), -heappop(calories), -heappop(calories))
+    x = -heappop(calories)
+    print('part1', x)
+    print('part2', x + -heappop(calories) + -heappop(calories))

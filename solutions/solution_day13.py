@@ -31,7 +31,7 @@ def compareList(x,y):
 # custom comparison function to compare each pair 
 import json
 
-with open('input_day13.txt') as f:
+with open('inputs/input_day13.txt') as f:
     lines = f.readlines()
     res = 0
     n = 0

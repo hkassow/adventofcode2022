@@ -10,7 +10,7 @@ outcome_score = {'AX':3, 'AY':6, 'AZ':0, "BY":3, 'BZ':6, 'BX':0, 'CZ':3, 'CX':6,
 outcome_score2 = {'X':0, 'Y':3, 'Z':6}
 shape_score2 = {'AX':3, 'AY':1, 'AZ':2, 'BX':1, 'BY':2, 'BZ':3, 'CX':2, 'CY':3, 'CZ':1 }
 
-with open('input_day2.txt') as f:
+with open('inputs/input_day2.txt') as f:
     lines = f.readlines()
     res = 0
     res2 = 0

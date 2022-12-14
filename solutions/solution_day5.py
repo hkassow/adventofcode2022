@@ -1,4 +1,4 @@
-with open('input_day5.txt') as f:
+with open('inputs/input_day5.txt') as f:
     lines = f.readlines()
     x = [[] for i in range(10)]
     for i in range(7,-1,-1):

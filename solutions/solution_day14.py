@@ -1,6 +1,6 @@
 import math
 
-with open('input_day14.txt') as f:
+with open('inputs/input_day14.txt') as f:
     lines = f.readlines()
     rock_cord = []
     x_min = math.inf
@@ -62,7 +62,6 @@ with open('input_day14.txt') as f:
                 grid[r][c] = '+'
                 #this condition should only be triggered during part 2 condition
                 if r == 0 and c == 500:
-                    print('done')
                     return False
                 return True
     res = 0
@@ -96,7 +95,7 @@ with open('input_day14.txt') as f:
                     c = i
                     cave2[r][c] = '#'
             prev = curr
-    cave2[-1] = ['#' for j in range(1000)]
+    cave2[-1] = ['#' for j in range(750)]
     res2 = 0
     while dropDown(0,500,cave2):
         res2 += 1
